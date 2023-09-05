@@ -10,6 +10,6 @@ public class OppgaveO3 {
 		for (int i = 1; i <= n; i++) {
 			nn *= i;
 		}
-		showMessageDialog(null, nn);
+		showMessageDialog(null, n + "! = " + nn);
 	}
 }
