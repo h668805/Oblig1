@@ -35,9 +35,9 @@ public class OppgaveO2 {
 				break;
 			}
 			if (prosent >= 0 && prosent <= 100) {
-				System.out.println("Poengsummen " + prosent + " gir karakteren " + karakter + ".");
+				showMessageDialog(null, "Poengsummen " + prosent + " gir karakteren " + karakter + ".");
 			} else {
-				System.out.println("Error: Ugyldig poengsum");
+				showMessageDialog(null, "Error: " + prosent + " er en ugyldig poengsum");
 				i--;
 			}
 		}
